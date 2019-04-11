@@ -12,6 +12,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+  BOOL b=  (1 << 30  & 1342177280) >> 30 == 1;
+    NSLog(@"%d",b);
     // Override point for customization after application launch.
     return YES;
 }

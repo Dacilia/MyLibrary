@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MyLibrary'
-  s.version          = '0.1'
+  s.version          = '1.0'
   s.summary          = 'limao'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-    limao
+    limaoSdk
                        DESC
 
   s.homepage         = 'https://github.com/Dacilia/MyLibrary'

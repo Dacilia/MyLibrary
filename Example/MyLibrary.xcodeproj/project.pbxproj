@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		001984EF4D60159A5FA9A9B4 /* Pods-MyLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLibrary_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyLibrary_Tests/Pods-MyLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		173DD6391243564F458DEAEB /* MyLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MyLibrary.podspec; path = ../MyLibrary.podspec; sourceTree = "<group>"; };
-		1AFDE04A8DFA4A337A37E6AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		173DD6391243564F458DEAEB /* MyLibrary.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyLibrary.podspec; path = ../MyLibrary.podspec; sourceTree = "<group>"; };
+		1AFDE04A8DFA4A337A37E6AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2A3A9842830BCB8CBF9D4E2C /* Pods-MyLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLibrary_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyLibrary_Example/Pods-MyLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4065FA6A9E54047AC58C780A /* Pods-MyLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLibrary_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyLibrary_Tests/Pods-MyLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MyLibrary_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLibrary_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,7 +63,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A8469FFEA62B743EB8928BF5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A8469FFEA62B743EB8928BF5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B716890D208F51717FB746DB /* Pods_MyLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3BB9E7EC5C31B12BA291A3E /* Pods-MyLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLibrary_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyLibrary_Example/Pods-MyLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F7CAA19F1D84F74404F8D2F0 /* Pods_MyLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -248,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Dacilia;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = T3DSL2X3MY;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -526,6 +530,7 @@
 			baseConfigurationReference = F3BB9E7EC5C31B12BA291A3E /* Pods-MyLibrary_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T3DSL2X3MY;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyLibrary/MyLibrary-Prefix.pch";
 				INFOPLIST_FILE = "MyLibrary/MyLibrary-Info.plist";
@@ -541,6 +546,7 @@
 			baseConfigurationReference = 2A3A9842830BCB8CBF9D4E2C /* Pods-MyLibrary_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T3DSL2X3MY;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyLibrary/MyLibrary-Prefix.pch";
 				INFOPLIST_FILE = "MyLibrary/MyLibrary-Info.plist";
